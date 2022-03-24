@@ -1,0 +1,20 @@
+.mat-card-simples{
+  max-width: 300px;
+  margin: 10px;
+  background-color: aqua;
+
+}
+
+.card-insercao-usuario{
+  max-width: 650px;
+  background-color: azure;
+  margin-top: 10px;
+}
+
+.mat-form-simples {
+  margin-left:5px;
+}
+.mat-card-button{
+  margin: 10px 300px 20px 300px;
+}
+
