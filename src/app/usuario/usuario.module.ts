@@ -9,6 +9,9 @@ import {MatButtonModule} from "@angular/material/button";
 import { ListagemUsuarioComponent } from './listagem-usuario/listagem-usuario.component';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {MatInputModule} from "@angular/material/input";
+import {FlexLayoutModule} from "@angular/flex-layout";
+
+
 
 
 
@@ -29,7 +32,9 @@ import {MatInputModule} from "@angular/material/input";
     FormsModule,
     MatIconModule,
     MatButtonModule,
-    MatInputModule
+    MatInputModule,
+    FlexLayoutModule
+
   ]
 })
 export class UsuarioModule { }
