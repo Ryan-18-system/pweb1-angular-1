@@ -11,6 +11,7 @@ import {MatIconModule} from "@angular/material/icon";
 import {MatCardModule} from "@angular/material/card";
 import {UsuarioModule} from "./usuario/usuario.module";
 import {LayoutModule} from "./layout/layout.module";
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import {LayoutModule} from "./layout/layout.module";
     MatIconModule,
     MatCardModule,
     UsuarioModule,
-    LayoutModule
+    LayoutModule,
+    HttpClientModule
 
   ],
   providers: [],
